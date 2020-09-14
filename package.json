@@ -1,0 +1,32 @@
+{
+  "name": "js-excel",
+  "version": "1.0.0",
+  "description": "Pure JS Excel-like SPA",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iceone-ninja/exceljs.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel",
+    "google",
+    "sheets"
+  ],
+  "author": "Oleg Ledvanov <olegledvanov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iceone-ninja/exceljs/issues"
+  },
+  "homepage": "https://github.com/iceone-ninja/exceljs#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
