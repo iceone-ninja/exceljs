@@ -1,5 +1,6 @@
 const path = require('path')
-const { CleanWebpackPlugin } = require('clean-webpack-plugin'); 
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+const HTMLWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
     //context - за какой папкой смотреть
@@ -16,5 +17,8 @@ module.exports = {
     },
     plugins: [
         new CleanWebpackPlugin(),
+        new HTMLWebpackPlugin({
+            template: 'index.html' //откуда брать шаблон, путь берется относительно контекста 
+        })
     ]
 }
